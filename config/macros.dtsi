@@ -1,3 +1,9 @@
+macro_excel_return: macro_excel_return{
+compatible = "zmk,behavior-macro";
+label = "macro_excel_return";
+#binding-cells = <0>;
+bindings = <&kp LEFT_SHIFT>, <&kp LEFT_GUI>, <&kp ENTER>;
+};
 macro_ctrl_c: macro_ctrl_c{
 compatible = "zmk,behavior-macro";
 label = "macro_ctrl_c";
